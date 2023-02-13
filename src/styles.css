@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5e6dc;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25;
+  color: rgba(0, 0, 0, 0.647);
+}
+
+app-projects {
+  padding-left: 20%;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+
+#project {
+  text-align: center;
+}
