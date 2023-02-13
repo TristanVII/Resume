@@ -1,0 +1,8 @@
+app-project-item {
+  display: flex;
+  width: 25%;
+  height: 250px;
+  flex-direction: row;
+  border: 1px black solid;
+  margin: 2.5px;
+}

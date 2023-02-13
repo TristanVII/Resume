@@ -1,0 +1,38 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.project-tech {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.project-desc {
+  font-size: 16;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.647);
+}
+
+.icon {
+  font-size: 20px;
+  color: blue;
+  cursor: pointer;
+}
